@@ -1,0 +1,19 @@
+h1 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2em;
+	color:#0B0B61;
+}
+
+button {
+	background-color: #A4A4A4;
+	margin: .25em;
+}
+
+body {
+	background-color: #EFFBFB;
+}
+
+.deleteButton{
+	background-color:#DF0101;
+	margin-left: .7em;
+}

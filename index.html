@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">    
+  </head>
+
+  <body>
+    <h1>TODO LIST</h1>
+
+    <!-- onclick=" " recebe uma função a ser realizada no caso com a função pertence a um objeto chamamos primeiro o nome do objeto.função() -->
+    <div>
+    	<button onclick="handlers.toggleAll()">Toggle All</button>
+    </div>
+
+    <div>
+    	<button onclick="handlers.addTodo()">Add</button>
+    	<input type="text" id="addTodoTextInput">
+    </div>
+
+    <div>
+    	<button onclick="handlers.changeTodo()">Change Todo</button>
+    	<input type="number" id="changeTodoInputPosition">
+    	<input type="text" id="changeTodoInputText">
+    </div>
+
+    <div>
+    	<button onclick="handlers.toggleAsComplete()">Toggle Completed</button>
+    	<input type="number" id="toggleAsComplete">
+    </div>
+
+    <ul>
+    	
+    </ul>
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
